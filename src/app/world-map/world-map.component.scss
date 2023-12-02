@@ -1,0 +1,14 @@
+svg {
+    display: block;
+    margin: 0 auto;
+    max-height: 100svh;
+}
+
+path {
+    transition: all 0.2s;
+}
+
+path:hover {
+    cursor: pointer;
+    fill: var(--hover);
+}

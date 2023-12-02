@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'd280_app';
+  countryData: any | undefined;
+
+  getCountryData(data: string):void {
+    this.countryData = data;
+  }
 }
