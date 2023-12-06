@@ -35,6 +35,6 @@ export class WorldBankService {
   }
 
   getCountryInfo(country: string) {
-    return this.http.get(`http://api.worldbank.org/v2/country/${country}?format=json`);
+    return this.http.get(`https://api.worldbank.org/v2/country/${country}?format=json`);
   }
 }
